@@ -45,7 +45,9 @@ Nós vamos rodar nossos códigos Js dentro do próprio VSCode com essa ferrament
 
 ![runner](./assets/runner.png)
 
-Depois de instalado é só rodar `ctrl+alt+n`
+Depois de instalado é só rodar `ctrl+alt+n` no arquivo `.js`
+
+----
 
 ## Lógica
 
@@ -88,13 +90,13 @@ O recurso utilizado nos programas para escrever e **ler dados da memória do com
 Toda vez que precisarmos armezanar e recuperar dados utilizaremos variáveis.
 
 No Javascript temos 3 maneiras de usar variáveis:
-- var (no console vamos usar essa)
+- var
 - let
 - const 
 
 ```javascript
-var numero = 1
-var texto = "Javascript!!!"
+const numero = 1
+const texto = "Javascript!!!"
 ```
 
 Declarando variáveis
@@ -119,7 +121,7 @@ Uma varivável não pode ser uma palavra reservada, [clique aqui para saber quai
 é uma sequência de caracteres usados para representar texto.
 
 ```javascript
-"Variáveis em Javascript são uma forma para se salvar dados"
+"Variáveis em Javascript são uma forma para se salconst dados"
 "Isabelle"
 "1 é um número ímpar"
 ```
@@ -151,7 +153,7 @@ null
 ```
 
 ```javascript
-var y = null;
+const y = null;
 console.log(y)
 ```
 
@@ -162,7 +164,7 @@ undefined
 ```
 
 ```javascript
-var x;
+const x;
 console.log(x)
 ```
 
@@ -179,8 +181,8 @@ O operador de atribuição básico é o igual (=), que atribui o valor do operan
 
 ##### Igual
 ```javascript
-var y = 7;
-var x = y; // x é igual à 7
+const y = 7;
+const x = y; // x é igual à 7
 ```
 
 #### Operadores Aritméticos
@@ -188,27 +190,27 @@ var x = y; // x é igual à 7
 ##### Adição (+)
 
 ```javascript
-var y = 7;
-var x = 3;
-var resultado = y + x 
+const y = 7;
+const x = 3;
+const resultado = y + x 
 console.log(resultado) // 10
 ```
 
 ##### Subtração (-)
 
 ```javascript
-var y = 5;
-var x = 2;
-var resultado = y - x 
+const y = 5;
+const x = 2;
+const resultado = y - x 
 console.log(resultado) // 3
 ```
 
 ##### Multiplicação(*)
 
 ```javascript
-var y = 4;
-var x = 5;
-var resultado = y * x 
+const y = 4;
+const x = 5;
+const resultado = y * x 
 console.log(resultado) // 20
 ```
 
@@ -217,9 +219,9 @@ O operador de divisão produz o quociente de seus operandos onde o operando da e
 
 
 ```javascript
-var y = 10;
-var x = 2;
-var resultado = y / x 
+const y = 10;
+const x = 2;
+const resultado = y / x 
 console.log(resultado) // 5
 ```
 
@@ -227,9 +229,9 @@ console.log(resultado) // 5
 O operador módulo retorna o resto inteiro da divisão de um numero pelo outro.
 
 ```javascript
-var y = 10;
-var x = 2;
-var resultado = y % x 
+const y = 10;
+const x = 2;
+const resultado = y % x 
 console.log(resultado) // 0
 ```
 
@@ -370,7 +372,7 @@ Temos uma condição (Se amanhã fizer sol) para executar uma ação (viajar par
 
 ```javascript
 // Variável booleana verdadeira
-var sol = true;
+const sol = true;
 
 // Condição
 if ( sol ) {
@@ -383,7 +385,7 @@ if ( sol ) {
 
 ```javascript
 // Variável booleana verdadeira
-var sol = false;
+const sol = false;
 
 // Condição
 if ( sol ) {
@@ -400,7 +402,7 @@ if ( sol ) {
 
 ```javascript
 // Variável booleana verdadeira
-var hora = 8;
+const hora = 8;
 
 // Condição
 if ( hora <= 12 ) {
@@ -435,7 +437,7 @@ if ( condição ) {
 Se a condição for correspondida, o programa executa as instruções asssociadas. Se múltiplos casos corresponderem o valor, o primeiro caso que corresponder é selecionado, mesmo se os casos não forem iguais entre si.
 
 ```javascript
-var dia = 'Segunda';
+const dia = 'Segunda';
 
 switch ( dia ) {
 	case 'Segunda':
@@ -471,7 +473,7 @@ Se você esquecer um break então o script irá rodar a partir do caso onde o cr
 
 
 ```javascript
-var dia = 'Segunda';
+const dia = 'Segunda';
 
 switch ( dia ) {
 	case 'Segunda':
@@ -497,9 +499,9 @@ switch ( dia ) {
 O operador condicional (ternário) é o único operador JavaScript que possui três operandos. Este operador é frequentemente usado como um atalho para a instrução if.
 
 ```javascript
-var idade = 16;
+const idade = 16;
 
-var acesso = idade > 18 ? true : false;
+const acesso = idade > 18 ? true : false;
 ```
 
 A expressão antes do ? é a condição if, se for verdadeira o primeira ação é executada, caso contrário a segunda ação, a que vem depois dos :, é executada
@@ -507,8 +509,8 @@ A expressão antes do ? é a condição if, se for verdadeira o primeira ação 
 É muito útil para testes mais básicos em que se tem apenas uma única linha de código dentro do if ou do else.
 
 ```javascript
-var salario = 1000;
-var bonus = salario * (salario > 1000 ? 0.10 : 0.15);
+const salario = 1000;
+const bonus = salario * (salario > 1000 ? 0.10 : 0.15);
 ```
 
 ## Extra
@@ -537,14 +539,14 @@ const input = require("readline-sync");
 Exemplo:
 
 ```javascript
-var readlineSync = require('readline-sync');
+const readlineSync = require('readline-sync');
  
 // Para .
-var nome = readlineSync.question('Qual o seu nome? ');
+const nome = readlineSync.question('Qual o seu nome? ');
 console.log('Oi ' + nome + '!');
  
 // Texto secreto (por exemplo, senha).
-var comidaPreferida = readlineSync.question('Qual a sua comida preferia? ', {
+const comidaPreferida = readlineSync.question('Qual a sua comida preferia? ', {
   hideEchoBack: true // O texto digitado na tela está oculto por `*`.
 });
 console.log(nome + ' ama ' + comidaPreferida + '!');
