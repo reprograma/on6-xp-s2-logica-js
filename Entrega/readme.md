@@ -37,4 +37,4 @@ Suba o código:
   - git push origin nome-da-sua-branch
 ```
 
-- Abra a pull request e coloque o link  no google classroom
+- Abra a pull request
