@@ -27,3 +27,14 @@ Considere que temos 22 dias úteis no mês.
 
 Para receber os valores use o `readline-sync`
 
+
+### Finalizado o trabalho 
+Suba o código:
+
+```
+  - git add .
+  - git commit -m "Descreva o que vc fez"
+  - git push origin nome-da-sua-branch
+```
+
+- Abra a pull request e coloque o link  no google classroom
