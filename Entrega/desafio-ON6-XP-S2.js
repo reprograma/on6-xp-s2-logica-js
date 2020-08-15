@@ -16,7 +16,7 @@ const media = ((nota1 + nota2 + nota3 + nota4 + nota5) / 5).toFixed(2)
 
 if (media >= 7) {
    console.log(`Sua média é ${media} você está Aprovada`)
-} else if (media > 5 && media < 7 ) {
+} else if (media >= 5 && media < 7 ) {
   console.log (`Sua média é ${media} você está em Recuperação`)
 } else {
    console.log(`Sua média é ${media} você está Reprovada`)
