@@ -11,7 +11,7 @@ const nota4 = parseFloat(readline.question("Qual a nota da prova 4? "))
 const nota5 = parseFloat(readline.question("Qual a nota da prova 5? "))
 
 
-const media = (nota1 + nota2 + nota3 + nota4 + nota5) / 5
+const media = ((nota1 + nota2 + nota3 + nota4 + nota5) / 5).toFixed(2)
 
 
 if (media >= 7) {
