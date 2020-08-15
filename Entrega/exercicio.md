@@ -10,3 +10,5 @@ Regras:
 * para ir para __recuperação__ a média tem que ser maior ou igual a 5 e menor que 7
 
 Para receber os valores use o `readline-sync`
+
+> Dica: para ter valores numericos ao inves de string busca sobre *parseFloat(string)*
