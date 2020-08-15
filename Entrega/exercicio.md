@@ -1,12 +1,12 @@
 # Exercício da Semana
 
-## Calculadora Freelance
+## Calculadora Média
 
-Crie um programa que vai receber 2 valores:
-* Quanto o profissional quer ganhar por mês
-* Quantas horas o profissional quer trabalhar por dia
+Crie um programa que vai receber 5 notas, calcular a média e dizer se a aluna foi aprovada, reprovada ou ficou em recuperação.
 
-E calcule o valor da hora desse profissional. 
-Considere que temos 22 dias úteis no mês.
+Regras:
+* para ser __aprovada__ a média tem que ser maior ou igual 7
+* para ser __reprovada__ a média tem que ser menor que 5
+* para ir para __recuperação__ a média tem que ser maior ou igual a 5 e menor que 7
 
 Para receber os valores use o `readline-sync`
