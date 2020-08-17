@@ -1,40 +1,5 @@
-# Exercício da Semana
+Atividade da Semana2 - Reprograma
 
-## Instruções
-Crie um novo repositório no seu github com o nome `calculadora-freelance`.
-Siga o passo a passo abaixo:
+Criar um programa que vai receber 5 notas, calcular a média e dizer se a aluna foi aprovada, reprovada ou ficou em recuperação.
 
-* `git clone url-do-seu-repositorio`
-* `cd calculadora-freelance`
-* `echo "# Meu Exercício" >> README.md`
-* `git init`
-* `git add README.md`
-* `git commit -m "first commit"`
-* `git remote add origin url-do-seu-repositorio`
-* `git push -u origin master`
-
-Dentro da pasta desse projeto...
-crie uma branch com o seu nome `git checkout -b nome-sobrenome`
-
-### Calculadora Freelance
-
-Crie um programa que vai receber 2 valores:
-* Quanto o profissional quer ganhar por mês
-* Quantas horas o profissional quer trabalhar por dia
-
-E calcule o valor da hora desse profissional. 
-Considere que temos 22 dias úteis no mês.
-
-Para receber os valores use o `readline-sync`
-
-
-### Finalizado o trabalho 
-Suba o código:
-
-```
-  - git add .
-  - git commit -m "Descreva o que vc fez"
-  - git push origin nome-da-sua-branch
-```
-
-- Abra a pull request
+Arquivo: calculadora_media.js
