@@ -1,0 +1,10 @@
+const readline = require('readline-sync')
+
+const bem_vindo = readline.question("Seja Bem-Vindo ao Portal do Estudante! " + " Digite Olá para começar sua consulta ")
+const nota_port = readline.question("Qual sua nota em português?")
+const nota_mat = readline.question ("Qual sua nota em matemática?")
+const nota_bio =readline.question ("Qual sua nota em biologia?")
+const nota_hist = readline.question ("Qual sua nota em história?")
+const nota_filo= readline.question ("Qual foi sua nota em filosofia?")
+
+console.log(nota_port;)
