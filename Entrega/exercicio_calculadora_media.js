@@ -28,15 +28,6 @@ const totalNotas= parseFloat(nota1) + parseFloat(nota2) + parseFloat(nota3) + pa
 const mediaNotas= totalNotas /5
 console.log(mediaNotas)
 
-/*if(mediaNotas <5){
-    console.log( "Sua nota foi: " + mediaNotas + ". Você foi REPROVADA!")
-
-}else if (mediaNotas >=7){
-    console.log( "Sua nota foi: " + mediaNotas + ". Você foi APROVADA! ")
-
-}else if(mediaNotas >=5 || mediaNotas <=7){
-    console.log( "Sua nota foi: " + mediaNotas + ". Você está de RECUPERAÇÃO!")
-}else{}*/
 
 if(mediaNotas <5){
     console.log( "Sua nota foi: " + mediaNotas + ". Você foi REPROVADA!")
