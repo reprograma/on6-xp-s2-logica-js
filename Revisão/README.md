@@ -33,28 +33,28 @@ var dia = 'Segunda';
 
 switch ( dia ) {
 	case 'Segunda':
-		alert('😴');
+		console.log('😴');
 		break;
 	case 'Terça':
-		alert('😐');
+		console.log('😐');
 		break;
 	case 'Quarta':
-		alert('🙂');
+		console.log('🙂');
 		break;
 	case 'Quinta':
-		alert('😬');
+		console.log('😬');
 		break;
 	case 'Sexta':
-		alert('🤪');
+		console.log('🤪');
 		break;
 	case 'Sábado':
-		alert('😎');
+		console.log('😎');
 		break;
 	case 'Domingo':
-		alert('😞');
+		console.log('😞');
 		break;
 	default:
-		alert('Não achei sua condição.');
+		console.log('Não achei sua condição.');
 }
 ```
 
@@ -69,21 +69,21 @@ var dia = 'Segunda';
 
 switch ( dia ) {
 	case 'Segunda':
-		alert('😴');
+		console.log('😴');
 	case 'Terça':
-		alert('😐');
+		console.log('😐');
 	case 'Quarta':
-		alert('🙂');
+		console.log('🙂');
 	case 'Quinta':
-		alert('😬');
+		console.log('😬');
 	case 'Sexta':
-		alert('🤪');
+		console.log('🤪');
 	case 'Sábado':
-		alert('😎');
+		console.log('😎');
 	case 'Domingo':
-		alert('😞');
+		console.log('😞');
 	default:
-		alert('Não achei sua condição.');
+		console.log('Não achei sua condição.');
 }
 ```
 
