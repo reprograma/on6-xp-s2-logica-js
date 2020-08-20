@@ -14,7 +14,7 @@ console.log("Hello Student!")
 
 const readline = require('readline-sync')
 
-const notaEscolar1 = parseFloat(readline.question("Qual sua nota do 1 Bimestre?"))
+const notaEscolar1 = parseFloat(readline.question("Qual sua nota do 1 Bimestre?")) //não coloquei o simbolo ° porque estava indo com caracter diferente.
 const notaEscolar2 = parseFloat(readline.question("Qual sua nota do 2 Bimestre?"))
 const notaEscolar3 = parseFloat(readline.question("Qual sua nota do 3 Bimestre?"))
 const notaEscolar4 = parseFloat(readline.question("Qual sua nota do 4 Bimestre?"))
