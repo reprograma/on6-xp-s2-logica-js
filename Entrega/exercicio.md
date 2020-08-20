@@ -12,3 +12,5 @@ Regras:
 Para receber os valores use o `readline-sync`
 
 > Dica: para ter valores numericos ao inves de string busca sobre *parseFloat(string)*
+
+
