@@ -6,7 +6,9 @@ Se houver, gravar na variável excesso e na variável multa o valor da multa que
 
 const readline = require('readline-sync')
 
-const pesoPeixes = parseFloat(readline.question('Qual foi o peso dos peixes? '))
+const pesoPeixes = parseFloat(readline.question('Qual foi o peso dos peixes? ', {
+    encoding: 'utf8',
+    keepWhitespace: true}))
 
 if (pesoPeixes > 50){
     const excesso = pesoPeixes - 50
